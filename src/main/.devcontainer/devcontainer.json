@@ -1,0 +1,12 @@
+{
+  "name": "Banking System JavaFX",
+  "image": "mcr.microsoft.com/devcontainers/java:1-25-bookworm",
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "JavaFX Desktop",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y xvfb x11vnc fluxbox novnc websockify"
+}
