@@ -7,7 +7,7 @@ The system allows customers to register, log in, open bank accounts, deposit mon
 
 ## Technologies Used
 - Java 25
-- JavaFX 26
+- JavaFX 21.0.6
 - Maven
 - H2 Database
 - JDBC
